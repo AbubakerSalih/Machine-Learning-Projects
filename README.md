@@ -12,6 +12,10 @@ This repository contains machine learning projects using Python:
 
 3. **Spam Mail Detection**  
    Detects if an email is spam using text classification.
-   
-4.**Credit Card Fraud Detection**
+
+4. **Credit Card Fraud Detection**
 Detects fraudulent transactions based on credit card usage patterns.
+
+
+   
+
