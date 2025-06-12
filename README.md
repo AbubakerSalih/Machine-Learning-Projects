@@ -15,7 +15,5 @@ This repository contains machine learning projects using Python:
 
 4. **Credit Card Fraud Detection**
    Detects fraudulent transactions based on credit card usage patterns.
-
-
    
 
