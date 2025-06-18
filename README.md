@@ -15,7 +15,11 @@ This repository contains machine learning projects using Python:
 
 4. **Credit Card Fraud Detection**
    Detects fraudulent transactions based on credit card usage patterns.
+   
 5. **Heart Disease Prediction**  
-  Predicts whether a person has a heart disease.
+   Predicts whether a person has a heart disease.
+
+6.**House Price Prediction**
+  Predicts house prices based on housing-related data.
    
 
