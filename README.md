@@ -22,6 +22,6 @@ This repository contains machine learning projects using Python:
 6. **House Price Prediction**  
    Predicts house prices based on housing-related data.
    
-7. **Loan Status Prediction**
+7. **Loan Status Prediction**  
    Predicts whether the loan is approved or not.
    
