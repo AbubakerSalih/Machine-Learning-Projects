@@ -26,7 +26,7 @@ This repository contains machine learning projects using Python:
    Predicts whether the loan is approved or not.
 
 8. **Bike Sharing Demand Prediction**  
-   Predicts the number of bike rentals using regression models based on weather and time features.
+   Predicts the number of bike rentals based on weather and time features.
 
 9. **Custom vs Sklearn Linear Regression on Student Exam Data**  
    Predicts student math scores using linear regression. This project compares a custom-built linear regression model (from scratch) with Scikit-learn’s `LinearRegression` to evaluate performance differences.
