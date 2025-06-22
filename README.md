@@ -1,32 +1,35 @@
 # ML Beginner Projects
 
-This repository contains machine learning projects using Python:
-
 ## Projects
 
 1. **Diabetes Prediction**  
-   Predicts whether a person has diabetes based on health data.
+   Predicts whether a person has diabetes or not based on health data.
 
 2. **Rock vs Mine Classification**  
-   Classifies sonar signals as rock or mine.
+   Classifies sonar reads as rock or mine.
 
 3. **Spam Mail Detection**  
-   Detects if an email is spam using text classification.
+   Classifies an email as spam or not based on text classification.
 
-4. **Credit Card Fraud Detection**  
-   Detects fraudulent transactions based on credit card usage patterns.
+4. **Credit Card Fraud Detection**
+Recognizes credit card fraud based on the behavior of credit card usage. 
 
-5. **Heart Disease Prediction**  
-   Predicts whether a person has a heart disease.
+5. **Heart Disease Prediction**
+   Whether a person has a heart disease or not.
 
-6. **House Price Prediction**  
-   Predicts house prices based on housing-related data.
+6. **House Price Prediction**
+   Predict the price of the houses.
 
-7. **Loan Status Prediction**  
-   Predicts whether the loan is approved or not.
+7. **Loan Status Prediction**
+   Approval or rejection of the loan.
 
-8. **Bike Sharing Demand Prediction**  
-   Predicts the number of bike rentals based on weather and time features.
+8. **Bike Sharing Demand Prediction**
+Predict bike rentals based on weather and time attributes.
 
-9. **Custom vs Sklearn Linear Regression on Student Exam Data**  
-   Predicts student math scores using linear regression. This project compares a custom-built linear regression model (from scratch) with Scikit-learn’s `LinearRegression` to evaluate performance differences.
+9. **Custom vs Sklearn Linear Regression on Student Exam Data**
+   Predicts student math grades using linear regression. This project contrasts a customLinear regression model (i.e., implemented from scratch) with Scikit-learn's `LinearRegression` to see how they compare in terms of performance.
+
+10. **Real vs Fake Job Posting Detection (Custom vs Sklearn Logistic Regression)**
+*Identifies spam job postings with text and binary features.*
+   
+   - I merged  job description columns into one `text` column then used  **TF-IDF Vectorizer** to transform the text into numerical features . the datset was **strongly imbalanced** so undersampling was done to balance the classes. I made a logistic regression model from scratch and compared it to the one from sklearn. finally I made bar charts to compare the accuracy between the two.
