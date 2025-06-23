@@ -33,3 +33,7 @@ Predict bike rentals based on weather and time attributes.
 *Identifies spam job postings with text and binary features.*
    
     I merged  job description columns into one `text` column then used  **TF-IDF Vectorizer** to transform the text into numerical features . the datset was **strongly imbalanced** so undersampling was done to balance the classes. I made a logistic regression model from scratch and compared it to the one from sklearn. finally I made bar charts to compare the accuracy between the two.
+
+11. **Custom vs Library SVM: Performance Comparison on Breast Cancer Dataset**
+    I implemented a SVM from scratch and used it on breast cancer dataset.I compared its accuracy with the accuracy of the SVM from Scikit-learn . Suprisingly,my custom model performed slightly better.
+    
