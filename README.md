@@ -37,5 +37,7 @@ Predict bike rentals based on weather and time attributes.
 11. **Custom vs Library SVM: Performance Comparison on Breast Cancer Dataset**
     I implemented a SVM from scratch and used it on breast cancer dataset. I compared its accuracy with the accuracy of the SVM from Scikit-learn . Suprisingly,my custom model performed slightly better.
 12. **Lasso Regression from Scratch vs Scikit-Learn**
-    I used a custom lasso regression from scratch to predict the salary of a person. I compared my model with the one from sklearn to see which one performs better. 
+    I used a custom lasso regression from scratch to predict the salary of a person. I compared my model with the one from sklearn to see which one performs better.
+13.  **Comparing Regression Models with Train-Test and Cross-Validation**
+    I compared LinearRegression, Lasso, RandomForestRegressor, and XGBRegressor on the Medical Cost dataset using R² as the evaluation metric. I also used cross-validation to observe differences in model performance.
     
