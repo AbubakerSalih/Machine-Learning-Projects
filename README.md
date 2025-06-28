@@ -45,4 +45,11 @@
 14. **Big Mart Sales Prediction**  
     I Compared several regression models for sales prediction then I used RandomizedSearchCV on the top 2 models to improve their performance.
     
+15. **Calories Burnt Prediction: Comparing Simple and Complex Models**  
+    I compared several regression models (LinearRegression, Lasso, RandomForestRegressor, and XGBRegressor) to predict calories burnt based on exercise data.  
+    I intentionally tried complex models like **XGBRegressor** and **RandomForestRegressor** to see if they would overfit.  
+    Both models achieved a perfect **R² score of 1.0** during cross-validation, which likely indicates **overfitting** — possibly due to the simplicity of the dataset.  
+    Therefore, I chose to stick with simpler models like **LinearRegression** and **Lasso**, which had slightly lower but more realistic R² scores and are less prone to overfitting.
+
+    
     
