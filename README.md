@@ -42,7 +42,7 @@
 13. **Comparing Regression Models with Train-Test and Cross-Validation**  
     I compared LinearRegression, Lasso, RandomForestRegressor, and XGBRegressor on the Medical Cost dataset using R² as the evaluation metric. I also used cross-validation to observe differences in model performance.
 
-14. **Big Mart Sales Prediction**
+14. **Big Mart Sales Prediction**  
     I Compared several regression models for sales prediction then I used RandomizedSearchCV on the top 2 models to improve their performance.
     
     
