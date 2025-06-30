@@ -36,7 +36,7 @@
 11. **Custom vs Library SVM: Performance Comparison on Breast Cancer Dataset**  
     I implemented a SVM from scratch and used it on breast cancer dataset. I compared its accuracy with the accuracy of the SVM from Scikit-learn. Surprisingly, my custom model performed slightly better.
 
-12. **Lasso Regression from Scratch vs Scikit-Learn**  
+12. **Lasso Regression from Scratch  vs Scikit-Learn**  
     I used a custom lasso regression from scratch to predict the salary of a person. I compared my model with the one from sklearn to see which one performs better.
 
 13. **Comparing Regression Models with Train-Test and Cross-Validation**  
@@ -53,6 +53,9 @@
 
 16. **Anime Recommendation System**  
     Using the MyAnimeList dataset, I developed a content-based anime recommendation algorithm. I created a single text feature by combining high-level features like genres, synopsis, type, and aired date. After converting the text data into numerical vectors using TF-IDF Vectorizer, I utilized cosine similarity to determine how similar the animes were. Then I let the user input an anime name, and the system will recommend to him the top animes that are comparable.
+
+17. **Customer Segmentation using K-means Clustering**  
+    I used the mall customer dataset to group customers based on their annual income and spending score. To determine the correct number of clusters, I used the elbow method. After that, I visualized the result using a scatter plot.
 
     
 
