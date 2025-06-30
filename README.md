@@ -51,5 +51,10 @@
     Both models achieved a perfect **R² score of 1.0** during cross-validation, which likely indicates **overfitting** — possibly due to the simplicity of the dataset.  
     Therefore, I chose to stick with simpler models like **LinearRegression** and **Lasso**, which had slightly lower but more realistic R² scores and are less prone to overfitting.
 
+16. **Anime Recommendation System**  
+    Using the MyAnimeList dataset, I developed a content-based anime recommendation algorithm. I created a single text feature by combining high-level features like genres, synopsis, type, and aired date. After converting the text data into numerical vectors using TF-IDF Vectorizer, I utilized cosine similarity to determine how similar the animes were. Then I let the user input an anime name, and the system will recommend to him the top animes that are comparable.
+
+    
+
     
     
